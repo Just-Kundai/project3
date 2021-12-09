@@ -1,0 +1,26 @@
+.carousel-container {
+  width: 90vw;
+  /* height: 600px; */
+  padding-right: 50px;
+  padding-bottom: 100px;
+  margin: 0 auto;
+  display: flex;
+
+}
+.carousel{
+  margin-left: 400px;
+
+}
+
+.thumb img {
+ 
+}
+
+.Container {
+  padding-top: 50px;
+  margin: 100px;
+}
+
+body{
+  min-height: 100vh;
+}

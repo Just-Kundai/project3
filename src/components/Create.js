@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { useHistory } from 'react-router-dom';
+import './Create.css';
 
 const Create = () => {
     const [title, setTitle] = useState('');
@@ -49,15 +50,7 @@ const Create = () => {
                     value={body}
                     onChange={(e) => setBody(e.target.value)}
                 />
-                <label>Blog author:</label>
-                <select
-                    value={author}
-                    onChange={(e) => setAuthor(e.target.value)}
-                >
-                    <option value="Shubham">Shubham</option>
-                    <option value="Satyam">Satyam</option>
-                    <option value="Anmol">Anmol</option>
-                </select>
+
                 {!isPending && <button>Add Blog</button>}
                 {isPending && <button disabled>Adding Blog</button>}
             </form>

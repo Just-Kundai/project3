@@ -5,11 +5,11 @@ import Footer from '../components/Footer';
 
 const OnePost = ({title}) => {
     const { id } = useParams();
-    const { data: post, error, isPending } =  useFetch('http://localhost:8000/posts/' + id);
+    const { data: post, error, isPending } =  useFetch('http://localhost:8001/posts/' + id);
     const history = useHistory();
 
     const handleClick = () => {
-        fetch('http://localhost:8000/posts/'+ post.id, {
+        fetch('http://localhost:8001/posts/'+ post.id, {
             method: 'DELETE'
         }).then(() => {
             history.push('/');
@@ -27,7 +27,7 @@ const OnePost = ({title}) => {
 
             </article>
 
-          
+
         </div>
      );
 }

@@ -12,10 +12,9 @@ export default function Footer() {
         py={{ xs: 5, sm: 5 }}
         bgcolor="#242124"
         color="white"
-        position="absolute"
-        left="0"
-        bottom="0"
-        right="0"
+
+        
+        width="100%"
       >
         <Container
         maxWidth="lg"

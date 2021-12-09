@@ -11,6 +11,7 @@ import NotFound from "./components/NotFound";
 import About from "./pages/AboutPage/About";
 import Create from "./components/Create";
 import Main from "./pages/HomePage/Main";
+import Footer from "./components/Footer";
 
 
 function App() {
@@ -46,6 +47,7 @@ function App() {
           </Route>
         </Switch>
       </div>
+      <Footer />
 
     </div>
   </Router>
