@@ -1,16 +1,4 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
 
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
 
@@ -29,7 +17,7 @@ code {
   border-bottom: 1px solid #f2f2f2;
 }
 .navbar h1 {
-  color: #f1356d;
+  color: #242124;
 }
 .navbar .links {
   margin-left: auto;
@@ -40,7 +28,7 @@ code {
   padding: 6px;
 }
 .navbar a:hover {
-  color: #f1356d;
+  color: #242124;
 }
 .content {
   max-width: 600px;
@@ -59,7 +47,7 @@ code {
 }
 .blog-preview h2 {
   font-size: 20px;
-  color: #f1356d;
+  color: #242124;
   margin-bottom: 8px;
 }
 .blog-preview a {
@@ -69,7 +57,7 @@ code {
 /* blog details page */
 .blog-details h2 {
   font-size: 20px;
-  color: #f1356d;
+  color: #242124;
   margin-bottom: 10px;
 }
 .blog-details div {

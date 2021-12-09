@@ -8,8 +8,8 @@ export default function Footer() {
   return (
     <footer>
       <Box
-        px={{ xs: 3, sm: 10 }}
-        py={{ xs: 5, sm: 10 }}
+        px={{ xs: 3, sm: 5 }}
+        py={{ xs: 5, sm: 5 }}
         bgcolor="#242124"
         color="white"
         position="absolute"
@@ -19,10 +19,8 @@ export default function Footer() {
       >
         <Container
         maxWidth="lg"
-        padding-bottom="60px"
+        padding-bottom="50px"
         >
-
-
 
           <Box textAlign="center" pt={{ xs: 5, sm: 10 }} pb={{ xs: 5, sm: 0 }}>
           <p>The Art of Thriving</p>

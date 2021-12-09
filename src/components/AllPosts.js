@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import useFetch from '../useFetch';
+import '../components/AllPosts.css';
 
 const AllPosts = ({posts, title, img}) => {
 

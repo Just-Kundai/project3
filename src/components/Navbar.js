@@ -23,10 +23,7 @@ const navbarData = [
     label: "BLOG",
     href: "/AllPosts",
   },
-  {
-    label: "LOG IN",
-    href: "/login",
-  },
+  
 ];
 
 const useStyles = makeStyles(() => ({

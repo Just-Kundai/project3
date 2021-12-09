@@ -1,5 +1,7 @@
 import { useParams, useHistory } from 'react-router-dom';
 import useFetch from '../useFetch';
+import '../components/OnePost.css';
+import Footer from '../components/Footer';
 
 const OnePost = ({title}) => {
     const { id } = useParams();
@@ -22,8 +24,10 @@ const OnePost = ({title}) => {
                 <h2>{post.title}</h2>
                 <p>Written by {post.author}</p>
                 <div>{post.body}</div>
-                <button onClick={handleClick}>Delete</button>
+
             </article>
+
+          
         </div>
      );
 }

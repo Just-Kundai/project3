@@ -9,7 +9,6 @@ import OnePost from "./components/OnePost";
 import Navbar from "./components/Navbar";
 import NotFound from "./components/NotFound";
 import About from "./pages/AboutPage/About";
-import Footer from "./components/Footer";
 import Create from "./components/Create";
 import Main from "./pages/HomePage/Main";
 
