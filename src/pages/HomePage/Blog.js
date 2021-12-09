@@ -11,7 +11,7 @@ const Blog = () => {
     const {data: posts, isPending, error} = useFetch('http://localhost:8000/posts');
 
     return (
-        <div className="home">
+        <div className="container">
             {error && <div>{error}</div>}
             {isPending && <div>Loading...</div>}
             <AllPosts posts={posts} title="All"/>

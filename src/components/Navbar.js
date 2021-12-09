@@ -8,8 +8,7 @@ import {
  } from "@material-ui/core";
 import React from "react";
 import { Link as RouterLink } from "react-router-dom";
-import katie1 from "../pages/HomePage/images/Katie1.png";
-import "./Navbar.css";
+import katie1 from "../pages/HomePage/Katie1.png";
 
 const navbarData = [
   {
@@ -47,7 +46,7 @@ const useStyles = makeStyles(() => ({
       fontWeight: 700,
       size: "18px",
       marginLeft: "38px",
-      color: "black",
+      color: "#242124",
    },
    toolbar: {
      display: "flex",

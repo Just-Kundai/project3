@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import useFetch from '../useFetch';
 
-const AllPosts = ({posts, title}) => {
+const AllPosts = ({posts, title, img}) => {
 
 
     return (
