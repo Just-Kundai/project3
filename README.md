@@ -10,7 +10,7 @@ A simple lifestyle blog for an influencer called Kate.
 *  Unsolved Problems
 *  Future Additions
 
-### Technologies
+### Technologies 💻
 * Firebase
 * React
 * json
@@ -19,24 +19,24 @@ A simple lifestyle blog for an influencer called Kate.
 * HTML
 * CSS
 
-### Functionalities
+### Functionalities ⚙️
 
 * Blog
 * Creating posts on the site for single admin
 
-### Features
+### Features 🧪
 
 * Sign In
 * Blog
 * Editing and deleting options for admin
 
 
-### Future Additions
+### Future Additions ➕
 
 * Adding a discussion board
-* Changing the backend to ruby or firebase for the blog posts
-* Being able to save project
+* Changing the backend to ruby or firebase for the blog posts or express with MongoDB
+* Having an editorial magazine style carousel
 
-### Special Thanks
+### Special Thanks 🤍
 
 Rowena you are awesome thank you for the help.   
