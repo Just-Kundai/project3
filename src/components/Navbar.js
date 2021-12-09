@@ -2,42 +2,44 @@
 import {
   AppBar,
   Toolbar,
-  Typography,
+
   makeStyles,
   Button,
  } from "@material-ui/core";
 import React from "react";
 import { Link as RouterLink } from "react-router-dom";
+import katie1 from "../pages/HomePage/images/Katie1.png";
+import "./Navbar.css";
 
 const navbarData = [
   {
-    label: "Home",
+    label: "HOME",
     href: "/",
   },
   {
-    label: "About",
+    label: "ABOUT",
     href: "/AboutMe",
   },
   {
-    label: "Blog",
+    label: "BLOG",
     href: "/AllPosts",
   },
   {
-    label: "Log In",
+    label: "LOG IN",
     href: "/login",
   },
 ];
 
 const useStyles = makeStyles(() => ({
-  header: {
-    backgroundColor: "#400CCC",
+  navbar: {
+    backgroundColor: "white",
     paddingRight: "79px",
     paddingLeft: "118px",
   },
   logo: {
     fontFamily: "Work Sans, sans-serif",
     fontWeight: 600,
-    color: "#FFFEFE",
+    color: "black",
     textAlign: "left",
   },
   menuButton: {
@@ -45,6 +47,7 @@ const useStyles = makeStyles(() => ({
       fontWeight: 700,
       size: "18px",
       marginLeft: "38px",
+      color: "black",
    },
    toolbar: {
      display: "flex",
@@ -65,9 +68,9 @@ export default function Navbar() {
   };
 
   const kateLogo = (
-    <Typography variant="h6" component="h1" className={logo}>
-      Kate
-    </Typography>
+    <div className="logo-div">
+    <img src={katie1} />
+    </div>
   );
 
   const getMenuButtons = () => {
@@ -89,8 +92,8 @@ export default function Navbar() {
  };
 
   return (
-    <header>
+    <navbar>
       <AppBar className={navbar}>{displayDesktop()}</AppBar>
-    </header>
+    </navbar>
   );
 }
